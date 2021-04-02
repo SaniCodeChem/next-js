@@ -4,8 +4,101 @@
   display: block;
   margin: 20px 10px;
   border-left: 8px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .single:hover {
   border-left: 8px solid #228b9e;
+}
+
+.btn {
+  display: block;
+  width: 180px;
+  padding: 8px 0;
+  margin: 50px auto 10px auto;
+  background: #228b9e;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+
+.btndel {
+  display: block;
+  width: 80px;
+  height: 30px;
+  padding: 8px 0;
+  background: #228b9e;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  margin: 3px;
+}
+
+.btnmodal {
+  display: block;
+  width: 180px;
+  padding: 8px 0;
+  margin: 10px auto 10px auto;
+  background: #228b9e;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+
+.btnmodal {
+  /* background: #5a878f; */
+  cursor: pointer;
+}
+
+.btndel:hover {
+  background: #5a878f;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  justify-content: center;
+  background: #fff;
+  padding: 20px;
+}
+
+.inp {
+  height: 25px;
+  background: lightgrey;
+  margin: 3px 0 10px 0;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.modalback {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+}
+
+.modal {
+  height: 300px;
+  width: 700px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: all;
+  border-radius: 50px;
 }

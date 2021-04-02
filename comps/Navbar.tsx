@@ -5,11 +5,10 @@ import styles from '../styles/Layout.module.css';
 const Navbar = () => (
   <nav>
     <div className="logo">
-      <Image src="/logo.png" width={128} height={128} />
+      <Link href="/">
+        <Image src="/logo.png" width={128} height={128} />
+      </Link>
     </div>
-    <Link href="/">
-      <a className={styles.navlink}>Home</a>
-    </Link>
     <Link href="/about">
       <a className={styles.navlink}>About</a>
     </Link>

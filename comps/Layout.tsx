@@ -7,11 +7,14 @@ export type Props = PropsWithChildren<{}>;
 
 const Layout = ({ children }: Props) => {
   return (
-    <div className="content">
-      <Navbar />
-      {children}
-      <Footer />
-    </div>
+    <>
+      <div className="content">
+        <Navbar />
+        {children}
+        <Footer />
+      </div>
+      <div id="root" />
+    </>
   );
 };
 

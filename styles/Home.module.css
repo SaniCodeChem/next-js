@@ -18,3 +18,7 @@
   color: white;
   text-align: center;
 }
+.btn:hover {
+  background: #5a878f;
+  cursor: pointer;
+}
